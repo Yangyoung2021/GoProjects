@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main3() {
 	var a = 100
 	var c1 = rune(a)
 	// go语言中的类型转换是使用类型名称然后使用括号包裹要转换的变量
@@ -12,4 +12,7 @@ func main() {
 	var b byte = 1
 	// byte的类型打印出来时int8，一个字节
 	fmt.Printf("b type is %T\n", b)
+
+	a = int(c1)
+	fmt.Printf("a = %d\n", a)
 }
