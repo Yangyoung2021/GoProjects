@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // switch控制语句的使用
-func main() {
+func main7() {
 	var a = 100
 	/**
 	switch相对其他语言来说，多了可以在要判断变量的同时声明一个变量，与此同时还能在switch
