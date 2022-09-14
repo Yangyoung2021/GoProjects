@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go/day01/calc"
 )
 
 func main() {
